@@ -1,0 +1,64 @@
+body{
+background-color: #965c5c;
+}
+
+.container {
+    background-image: url('./Assets/Images/Idukki-waterfalls.avif');
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Center text within container */
+    text-shadow: rgb(211, 128, 128);
+  }
+
+  h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+  h2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+  h3 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 400px;
+}
+
+.district-button {
+    background-color: #3e2723; /* Dark brown */
+    color: #ffffff; /* Off-white */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Additional styles for better visual appeal */
+.district-button:hover {
+    background-color: #5d4037; /* Darker brown on hover */
+}
+
+.district-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a subtle box shadow on focus */
+}
