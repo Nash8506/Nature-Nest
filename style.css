@@ -8,6 +8,12 @@ background-color: #965c5c;
     background-position: center;
     text-align: center; /* Center text within container */
     text-shadow: rgb(211, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
   }
 
   h1 {
@@ -26,14 +32,6 @@ background-color: #965c5c;
     text-shadow: 2px 2px 2px black;
   }
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f5f5f5;
-}
 
 .button-container {
     display: grid;
@@ -61,4 +59,8 @@ background-color: #965c5c;
 .district-button:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a subtle box shadow on focus */
+}
+
+.button-container .district-button{
+  text-decoration: none;
 }
