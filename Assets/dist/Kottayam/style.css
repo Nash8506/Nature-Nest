@@ -1,0 +1,47 @@
+body {
+    background-image: url('/Assets/dist/Kottayam/wp.jpeg');
+    background-size: cover;
+    background-repeat:repeat;
+    background-attachment:scroll; 
+    backdrop-filter: blur(3px);
+}
+
+.heading {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(214, 52, 52);
+    text-shadow: 2px 2px 2px rgb(209, 138, 138);
+}
+.Kumarakom-Backwaters{
+    text-align:start;
+    font-size: 7px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(226, 67, 67);
+    text-decoration: underline;
+}
+
+.explanation {
+    text-align:start;
+    color: rgb(255, 255, 255);
+}
+
+.Vembanad-heading{
+font-size: 27px;
+}
+
+.p-3 h2{
+text-decoration: underline;
+ text-shadow: 2px 2px 2px rgb(226, 67, 67);
+}
+
+.p-3{
+    color: white;
+}
+
+.Illikkal-Kallu{
+    text-align:start;
+    font-size: 7px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(226, 67, 67);
+    text-decoration: underline;
+}
