@@ -11,7 +11,7 @@
 </head>
 <body>
   <!-- Nav bar -->
-  <nav class="navbar navbar-expand-lg bg-info">
+  <nav class="navbar navbar-expand-lg bg-info fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Nature Nest</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +23,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">HotSpots Hub</a>
+            <a class="nav-link" href="#carouselExampleCaptions">HotSpots Hub</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Districts</a>
+            <a class="nav-link" href="#districts">Districts</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,6 +42,7 @@
       </div>
     </div>
   </nav>
+
   <!-- Jumbotron -->
     <div class="container jumbotron jumbotron-fluid">
       <h1 class="display-4" style="color: bisque;">Welcome to Nature Nest!</h1>
@@ -61,22 +62,22 @@
         <div class="carousel-item active">
           <img src="./Assets/Images/carousel images/alappuzha.jpg" class="d-block w-100" alt="alappuzha">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Alappuzha</h5>
-            <p>The "Venice of the East" offers serene backwaters, houseboat cruises, and the famous Nehru Trophy Boat Race, making it a tranquil gem in God's Own Country.</p>
+            <h5 style="font-weight: bold;">Alappuzha</h5>
+            <p style="font-weight: bold;">The "Venice of the East" offers serene backwaters, houseboat cruises, and the famous Nehru Trophy Boat Race, making it a tranquil gem in God's Own Country.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./Assets/Images/carousel images/munnar.jpg" class="d-block w-100" alt="munnar">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Munnar</h5>
-            <p>A scenic hill station famous for tea plantations, misty hills, and stunning landscapes. Perfect for nature lovers seeking a serene retreat in God's Own Country</p>
+            <h5 style="font-weight: bold;">Munnar</h5>
+            <p style="font-weight: bold; font-weight: bold;">A scenic hill station famous for tea plantations, misty hills, and stunning landscapes. Perfect for nature lovers seeking a serene retreat in God's Own Country</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./Assets/Images/carousel images/kochi.jpg" class="d-block w-100" alt="kochi">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Kochi</h5>
-            <p>A historic city on the Arabian Sea, renowned for its colonial architecture, iconic Chinese fishing nets, and vibrant culture.</p>
+            <h5 style="font-weight: bold;">Kochi</h5>
+            <p style="font-weight: bold;">A historic city on the Arabian Sea, renowned for its colonial architecture, iconic Chinese fishing nets, and vibrant culture.</p>
           </div>
         </div>
       </div>
@@ -89,10 +90,11 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <br>
 
         <!-- Districts -->
+        
           <div class="container">
+            <section id="districts">
             <div class="button-container">
               <a href="/Assets/dist/tvm/index.html" class="district-button">Thiruvananthapuram</a>
               <a href="/Assets/dist/Kollam/index.html" class="district-button">Kollam</a>
@@ -109,8 +111,13 @@
               <a href="/Assets/dist/Kannur/index.html" class="district-button">Kannur</a>
               <a href="/Assets/dist/Kasaragod/index.html" class="district-button">Kasaragod</a>
             </div>
+          </section>
           </div>
-     <br> 
+        
+  
+     <footer class="bg-dark text-light text-center py-3">
+      <p>&copy; 2023 Nature Nest. All rights reserved. Designed by Nashid. K</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
