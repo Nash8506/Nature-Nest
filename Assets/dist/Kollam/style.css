@@ -13,6 +13,14 @@ body {
     text-shadow: 2px 2px 2px rgb(209, 138, 138);
 }
 
+.kollam-def{
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
 .Thangassery-Beach{
     text-align:start;
     font-size: 7px;
@@ -24,6 +32,10 @@ body {
 .explanation {
     text-align:start;
     color: rgb(255, 255, 255);
+}
+
+.jatayu-heading{
+    font-size: 27px;
 }
 
 .p-3 h2{

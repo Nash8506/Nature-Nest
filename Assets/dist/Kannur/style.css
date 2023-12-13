@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Assets/dist/Idukki/wp.jpeg');
+    background-image: url('/Assets/dist/Kannur/wp.jpeg');
     background-size: cover;
     background-repeat:repeat;
     background-attachment:scroll; 
@@ -13,7 +13,7 @@ body {
     text-shadow: 2px 2px 2px rgb(209, 138, 138);
 }
 
-.idukki{
+.kannur-def{
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -21,7 +21,7 @@ body {
     margin: 10px;
 }
 
-.Munnar{
+.Angelo-Fort{
     text-align:start;
     font-size: 7px;
     color: rgb(255, 255, 255);
@@ -34,8 +34,8 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.arch-dam-heading{
-    font-size: 28px;
+.Muzhappilangad-heading{
+    font-size: 27px;
 }
 
 .p-3 h2{
@@ -47,7 +47,7 @@ text-decoration: underline;
     color: white;
 }
 
-.Periyar-National-Park{
+.Arakkal-Museum{
     text-align:start;
     font-size: 7px;
     color: rgb(255, 255, 255);

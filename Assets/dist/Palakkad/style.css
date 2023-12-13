@@ -12,6 +12,15 @@ body {
     color: rgb(214, 52, 52);
     text-shadow: 2px 2px 2px rgb(209, 138, 138);
 }
+
+.palakkad-def{
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
 .Palakkad-Fort{
     text-align:start;
     font-size: 7px;
