@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Assets/dist/Alappuzha/alappuzhawp-3.cms');
+    background-image: url('./alappuzhawp-3.cms');
     background-size: cover; 
     background-repeat:repeat;
     background-attachment:scroll; 
