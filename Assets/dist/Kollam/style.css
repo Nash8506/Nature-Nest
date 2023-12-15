@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Assets/dist/Kollam/KollamWPThenmala\ Eco-Tourism-3.jpg');
+    background-image: url('./KollamWPThenmala Eco-Tourism-3.jpg');
     background-size: cover; 
     background-repeat:repeat;
     background-attachment:scroll; 

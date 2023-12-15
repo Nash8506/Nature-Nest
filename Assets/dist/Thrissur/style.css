@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Assets/dist/Thrissur/wp.jpeg');
+    background-image: url('./wp.jpeg');
     background-size: cover;
     background-repeat:repeat;
     background-attachment:scroll; 

@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Assets/dist/tvm/tvmwp.jpg');
+    background-image: url('./tvmwp.jpg');
     background-size: cover;
     background-repeat:repeat;
     background-attachment:scroll; 

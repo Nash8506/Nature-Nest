@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Assets/dist/Palakkad/wp.webp');
+    background-image: url('./wp.webp');
     background-size: cover;
     background-repeat:repeat;
     background-attachment:scroll; 
