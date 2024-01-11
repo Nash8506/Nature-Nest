@@ -100,6 +100,15 @@ form .form-row .textarea{
 .textarea textarea:valid ~ .underline:before{
   transform: scale(1);
 }
+
+.input-data span{
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 14px;
+  color:#56d8e4 ;
+}
+
 .submit-btn .input-data{
   overflow: hidden;
   height: 45px!important;

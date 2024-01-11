@@ -14,34 +14,39 @@
         <form action="#">
            <div class="form-row">
               <div class="input-data">
-                 <input type="text" required>
+                 <input type="text" required id="firstname" onkeyup="validateFirstName()">
                  <div class="underline"></div>
                  <label for="">First Name</label>
+                 <span id="username-error"></span>
               </div>
               <div class="input-data">
-                 <input type="text" required>
+                 <input type="text" required id="lastname" onkeyup="validateLastName()">
                  <div class="underline"></div>
                  <label for="">Last Name</label>
+                 <span id="password-error"></span>
               </div>
            </div>
            <div class="form-row">
               <div class="input-data">
-                 <input type="text" required>
+                 <input type="text" required id="email" onkeyup="validateEmail()">
                  <div class="underline"></div>
                  <label for="">Email Address</label>
+                 <span id="email-error"></span>
               </div>
               <div class="input-data">
-                 <input type="text" required>
+                 <input type="text" required id="phonenumber" onkeyup="validatePhoneNumber()">
                  <div class="underline"></div>
                  <label for="">Phone Number</label>
+                 <span id="phonenumber-error"></span>
               </div>
            </div>
            <div class="form-row">
            <div class="input-data textarea">
-              <textarea rows="8" cols="80" required></textarea>
+              <textarea rows="8" cols="80" required id="message" onkeyup="validateMessage()"></textarea>
               <br />
               <div class="underline"></div>
               <label for="">Write your message</label>
+              <span id="message-error"></span>
               <br />
               <div class="form-row submit-btn">
                  <div class="input-data">
@@ -51,5 +56,6 @@
               </div>
         </form>
         </div>
+        <script src="contact.js"></script>
 </body>
 </html>
